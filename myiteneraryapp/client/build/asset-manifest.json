@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.74a64521.css",
+    "main.js": "/static/js/main.b5e80ec8.js",
+    "static/js/787.0c1006af.chunk.js": "/static/js/787.0c1006af.chunk.js",
+    "static/media/video2.mp4": "/static/media/video2.9e6db4b8acd7c282f74e.mp4",
+    "static/media/itineraryunderconstruction.png": "/static/media/itineraryunderconstruction.b97b6be0d3759ff1ae92.png",
+    "static/media/user.png": "/static/media/user.944caf8820a6d94ef054.png",
+    "static/media/instagram.png": "/static/media/instagram.1792ff30fb032c94685c.png",
+    "static/media/Logotipo.png": "/static/media/Logotipo.be14341fce410e77b931.png",
+    "static/media/github.png": "/static/media/github.553c66159c5672f25df6.png",
+    "static/media/gorjeo.png": "/static/media/gorjeo.93ac3f9a344ecd5d01a4.png",
+    "static/media/facebook.png": "/static/media/facebook.a5def58db1e9c1b38269.png",
+    "static/media/linkedin.png": "/static/media/linkedin.6892b3ae328c7a1e055f.png",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "main.74a64521.css.map": "/static/css/main.74a64521.css.map",
+    "main.b5e80ec8.js.map": "/static/js/main.b5e80ec8.js.map",
+    "787.0c1006af.chunk.js.map": "/static/js/787.0c1006af.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.74a64521.css",
+    "static/js/main.b5e80ec8.js"
+  ]
+}

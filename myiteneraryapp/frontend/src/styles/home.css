@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap');
+*{font-family: 'PT Serif', serif;}
+
+
+.home{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.home2{
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+video {
+    object-fit: cover;
+    width: 100vw;
+    height:100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .title{
+      font-size: 6rem;
+      color: white;
+      text-shadow: black;
+  }
+  .title2{
+      color: white;
+  }
+  /* From cssbuttons.io by @westitan */
+.button1{
+    padding-top: 2rem;
+}
+.ButtonMain {
+    position: relative;
+    padding: 19px 36px;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    border-radius: 40px;
+    border: none;
+    margin-bottom: 2rem;
+   }
+   
+   .ButtonMain span {
+    position: relative;
+    color: #fff;
+    letter-spacing: 8px;
+    z-index: 1;
+    
+   }
+   
+   .ButtonMain .liquid {
+    position: absolute;
+    top: -80px;
+    left: 0;
+    width: 100%;
+    height: 200px;
+    background: #4973ff;
+    box-shadow: inset 0 0 50px rgba(0, 0, 0, .5);
+    transition: .5s;
+   }
+   
+   .ButtonMain .liquid::after,
+   .ButtonMain .liquid::before {
+    content: '';
+    width: 200%;
+    height: 200%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -75%);
+    background: #fff;
+   }
+   
+   .ButtonMain .liquid::before {
+    border-radius: 45%;
+    background: rgba(20, 20, 20, 1);
+    animation: animate 5s linear infinite;
+   }
+   
+   .ButtonMain .liquid::after {
+    border-radius: 40%;
+    background: rgba(20, 20, 20, .5);
+    animation: animate 10s linear infinite;
+   }
+   
+   .ButtonMain:hover .liquid {
+    top: -120px;
+   }
+   
+   @keyframes animate {
+    0% {
+     transform: translate(-50%, -75%) rotate(0deg);
+    }
+   
+    100% {
+     transform: translate(-50%, -75%) rotate(360deg);
+    }
+   }
+   /* Breakpoints */
+   @media (max-width: 900px) {
+    .home {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.527);
+    }
+    .home2{
+        margin-top: 3rem;
+        
+    }
+    .title{
+        font-size: 3rem;
+        width: 100%;
+        text-align: center;
+    }
+    .title2{
+        width: 80%;
+    }
+  }

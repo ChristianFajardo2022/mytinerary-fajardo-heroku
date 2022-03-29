@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap');
+*{font-family: 'PT Serif', serif;}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  z-index: 2;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.swip{
+  width: 50%;
+  height: 80vh;
+  margin-top: 2rem;
+  padding: 0;
+
+} 
+.imagenes{
+  width: 100%;
+}
+@media (max-width: 900px) {
+  .swip{
+    width: 80%;
+    height: 100vh;
+    margin-top: 10rem;
+}
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+element.style {
+  color: black;
+  background-color: #3768eebf;
+}
+.citiesDiv{
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+  background-color: #3322cc1f;
+}
+.myVideo {
+  /* position: fixed; */
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+.backgroundCities{
+  margin-top: 8rem;
+}
+
+.MediaCartCities{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 2rem;
+  
+  
+}
+.Cards2{
+  margin: 2rem;
+  border-radius: 5rem !important;
+  box-shadow: 5px 5px 20px 10px rgb(29, 28, 28);
+  background-color: #4973ff;
+}
+.form-control{
+  border-radius: 40px !important;
+  height: 3rem;
+  width: 15rem;
+  
+  
+}
+.backgroundCities{
+  background-color: rgba(57, 69, 230, 0.692);
+  border-radius: 30px;
+  color: rgb(3, 3, 3);
+  width: 20rem;
+}
+.CardActions {
+  text-align: center !important;
+  display: flex;
+  justify-content: center;
+}
+.cardsDetalle{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding-top: 7rem !important;
+  padding: 0;
+  background-color: #4973ff;
+}
+.cardsid{
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  background-color: #0b0d11;
+  color: white;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  padding: 1rem;
+}
+.imgDetail{
+  border-radius: 20px;
+  width: 70%;
+  margin: 2rem;
+}
+/* ---------itineraries------------- */
+.detailItineraries{
+  border-radius: 50px !important;
+  background-color: black !important;
+  margin: 4rem 1rem;
+  color: white !important;
+  padding: 0.5rem;
+}
+.tineraries{
+  width: 70% !important;
+  border-radius: 50px !important;
+  color: white !important;
+  
+}
+
+.titletineraries{
+  border-radius: 50px !important;
+  
+ 
+}
+.infotineraries{
+  border-radius: 50px !important;
+  width: 100% !important;
+  background-color: #265ae92c;
+  padding: 0.5rem;
+  font-size: small !important;
+}
+.imageuser1{
+  width:10vw;
+    height:20vh;
+    border-radius:150px;
+}
+
+.buttonClass{
+  border-radius: 40px;
+  background-color: #4973ff;
+  color: white;
+  box-shadow: 2px 2px 5px 3px white;
+  width: 15vw;
+  font-size: small;
+}
+.imgUnder{
+  width: 50%;
+  margin: 2rem;
+  border-radius: 20px;
+}
+
+/* }-------------------singin--------- */
+
