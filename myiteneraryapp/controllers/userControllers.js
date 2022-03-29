@@ -27,7 +27,7 @@ console.log(uniqueString)
         subject: "Verificacion de email usuario ", 
         html: `
         <div >
-        <h1 style="color:red">Presiona <a href=http://localhost:4000/api/verify/${uniqueString}>aqui</a> para confirma tu email. Gracias </h1>
+        <h1 style="color:red">Presiona <a href=https://mytinerary-christianfajardo.herokuapp.com/api/verify/${uniqueString}>aqui</a> para confirma tu email. Gracias </h1>
         </div>
         `
     

@@ -4,7 +4,7 @@ const activitiesActions = {
 
     fetchearActivities: () =>{
        return async(dispatch, getState) => {
-            const res = await axios.get('http://localhost:4000/api/allactivities')
+            const res = await axios.get('https://mytinerary-christianfajardo.herokuapp.com/api/allactivities')
             dispatch({type:'fetchActivities', payload:res.data.response.activities})
        }
     },
@@ -20,7 +20,7 @@ const activitiesActions = {
         return async(dispatch, getState) => {
             try {
 
-                const respuesta = await axios.delete('http://localhost:4000/api/allactivities/'+id)
+                const respuesta = await axios.delete('hhttps://mytinerary-christianfajardo.herokuapp.com/api/allactivities/'+id)
 
                 dispatch({type:'deleteActivities', payload:respuesta.data.respuesta})
 
@@ -37,7 +37,7 @@ const activitiesActions = {
     },
     cargarActivities: (name,activities)=>{
         return async(dispatch,getState)=>{
-            const respuesta = await axios.post('http://localhost:4000/api/itineraries' ,{name,activities})
+            const respuesta = await axios.post('https://mytinerary-christianfajardo.herokuapp.com/api/itineraries' ,{name,activities})
             dispatch({type:'cargarItinerary', payload:respuesta.data.respuesta})
 
         }
@@ -46,7 +46,7 @@ const activitiesActions = {
 console.log(id)
         return async(dispatch, getState) =>{
             
-            const res = await axios.get(`http://localhost:4000/api/allactivities/itineraries/${id}`)
+            const res = await axios.get(`https://mytinerary-christianfajardo.herokuapp.com/allactivities/itineraries/${id}`)
             console.log(res)
             dispatch({type: "filteractivityForItineraries", payload:res.data.respuesta})
            

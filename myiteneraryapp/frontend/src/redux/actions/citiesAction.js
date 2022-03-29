@@ -4,13 +4,13 @@ const citiesActions = {
 
     fetchearCities: () =>{
        return async(dispatch, getState) => {
-            const res = await axios.get('http://localhost:4000/api/ciudades')
+            const res = await axios.get('https://mytinerary-christianfajardo.herokuapp.com/api/ciudades')
             dispatch({type:'fetch', payload:res.data.response.ciudades})
        }
     },
     fetchearUnaCiudad: (id) =>{
         return async (dispatch, getState) => {
-            const res = await axios.get("http://localhost:4000/api/ciudades"+id)
+            const res = await axios.get("https://mytinerary-christianfajardo.herokuapp.com/api/ciudades"+id)
             dispatch({type:'fetch', payload:res.data.response.ciudades})
             return (res.data.response)
             
@@ -20,7 +20,7 @@ const citiesActions = {
         return async(dispatch, getState) => {
             try {
 
-                const respuesta = await axios.delete('http://localhost:4000/api/ciudades/'+id)
+                const respuesta = await axios.delete('https://mytinerary-christianfajardo.herokuapp.com/api/ciudades/'+id)
 
                 dispatch({type:'delete', payload:respuesta.data.respuesta})
 
@@ -37,7 +37,7 @@ const citiesActions = {
     },
     cargarCities: (name,cities)=>{
         return async(dispatch,getState)=>{
-            const respuesta = await axios.post('http://localhost:4000/api/ciudades' ,{name,cities})
+            const respuesta = await axios.post('https://mytinerary-christianfajardo.herokuapp.com/api/ciudades' ,{name,cities})
             dispatch({type:'cargarCity', payload:respuesta.data.respuesta})
 
         }
